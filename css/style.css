@@ -111,7 +111,7 @@ img.logo{
 #slider .content{
     height: 700px;
     color: #fff;
-    background: url(/img/Rectangle.png);
+    background: url(./img/Rectangle.png);
     background-attachment: fixed;
     background-size: cover;
     margin: 0 auto;
@@ -268,7 +268,7 @@ flex-shrink: 0;
 #download{
     height: 700px;
     color: #fff;
-    background-image: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(/img/img-essen.jpg);
+    background-image: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(./img/img-essen.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
