@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- HEADER -->
+        <header id="header">
+            <div class="brand">
+                <img src="./img/Eats-img.webp" alt="Eats-img" class="logo">
+                <span class="mobile-nav hide">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+            <nav class="nav-list">
+                <a class="nav-item" href="#slider">Home</a>
+                <a class="nav-item" href="#instruction">Product</a>
+                <a class="nav-item" href="#download">Faq</a>
+                <a class="nav-item" href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!-- SLIDER -->
+        <section id="slider">
+            <div class="content">
+                <p>Restaurant app</p>
+                <!-- <h2>Why stay hungry when</h2>
+                <h2>you can order form Bella Onojie</h2> -->
+                <h2>Why stay hungry when you can order form Bella Onojie</h2>
+                <p>Download the bella onoje’s food app now on</p>
+                <div class="action">
+                    <button class="primary-btn">Delivery</button>
+                    <button class="secondary-btn">Menu</button>
+                </div>
+            </div>
+        </section>
+        <!-- INSTRUCTION -->
+        <section id="instruction">
+            <div class="title">How the app works</div>
+            <div class="instruction-item">
+                <div class="instruction-img ">
+                    <img class="taras" src="./img/phone.png" alt="">
+                </div>
+                <div class="instruction-content">
+                    <p class="summary">Create an account</p>
+                    <h3 class="heading">Create/login to an existing
+                        account to get started</h3>
+                    <p class="desc">An account is created with your email
+                        and a desired password</p>
+                </div>
+            </div>
+            <div class="instruction-item instruction-item-reverse">
+                <div class="instruction-content instruction-content-reverse">
+                    <p class="summary">Create an account</p>
+                    <h3 class="heading">Create/login to an existing
+                        account to get started</h3>
+                        <p class="desc">An account is created with your email
+                            and a desired password</p>
+                </div>
+                <div class="instruction-img instruction-img-reverse">
+                    <img src="./img/phone-section.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- DOWNLOAD -->
+        <section id="download" style="background-position: center">
+            <div class="heading">Download the app now.</div>
+            <p class="content hideOnMobile">Available on your favorite store. Start your premium experience now</p>
+            <p class="content hide">Most calendars are 
+                designed for teams. </p>
+            <div class="action">
+                <button class="primary-btn">Playstore</button>
+                <button class="secondary-btn">App store</button>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer id="contact">
+            <img src="./img/Eats-img.webp" alt="" class="logo">
+            <span class="socials">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </span>
+            <span class="copyright">Copywright 2020 Bella Onojie.com</span>
+        </footer>
+    </div>
+
+<!--     
+    <script>
+        // toggle navbar
+        var narMobile = document.querySelector('.mobile-nav');
+        var header = document.querySelector('#header');
+        var headerHeight  = header.clientHeight;
+        
+        narMobile.onclick = function(){
+            var isClosed = header.clientHeight === headerHeight;
+            if(isClosed) header.style.height = 'auto';
+            else header.style.height = null;
+        }
+
+        var navItems =  document.querySelectorAll('#header a[href*="#"]');
+        for(var i=0; i < navItems.length; i++){
+            var navItem = navItems[i];
+
+            navItem.onclick = function(){
+                header.style.height = null;
+            }
+        }
+    </script> -->
+
+
+</body>
+</html>
